@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body class="body1">
+    <div class="first-div">
+      <button class="reset right" onclick="inverseColors();">White</button>
+      <p class="heading1">Choose a option</p>
+      <button class="icon-button" onclick="printTheResult('rock');">
+        <img src="rock.png" alt="" class="icon" />
+      </button>
+      <button class="icon-button" onclick="printTheResult('paper');">
+        <img src="paper.png" alt="" class="icon" />
+      </button>
+      <button class="icon-button" onclick="printTheResult('scissors');">
+        <img src="scissors.png" alt="" class="icon" />
+      </button>
+      <h3 class="heading2"></h3>
+      <div class="second-div js-second-div"></div>
+      <div class="second-sub-div js-second-sub-div"></div>
+      <div class="end-results js-end-results"></div>
+      <div class="js-btn"></div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
